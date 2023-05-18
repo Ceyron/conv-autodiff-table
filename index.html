@@ -508,6 +508,73 @@ MathJax = {
       \bar{x} = f(w) \ast \bar{y}
     $</td>
   </tr>
+  <tr>
+    <td><b>Stride & Dilation in Matrix-Multiply notation</b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>"Valid" Padding with stride $2$</td>
+    <td>$
+      \begin{bmatrix}
+        y_1
+        \\
+        y_2
+      \end{bmatrix}
+      =
+      \begin{bmatrix}
+        w_1 & w_2 & w_3 & 0 & 0 \\
+        0 & 0 & w_1 & w_2 & w_3
+      \end{bmatrix}
+      \begin{bmatrix}
+        x_1
+        \\
+        x_2
+        \\
+        x_3
+        \\
+        x_4
+        \\
+        x_5
+      \end{bmatrix}
+    $</td>
+    <td>$
+      todo
+    $</td>
+    <td>$
+      todo
+    $</td>
+  </tr>
+  <tr>
+    <td>"Valid" Padding with dilation = 2</td>
+    <td>$
+      \begin{bmatrix}
+        y_1
+      \end{bmatrix}
+      =
+      \begin{bmatrix}
+        w_1 & 0 & w_2 & 0 & w_3\\
+      \end{bmatrix}
+      \begin{bmatrix}
+        x_1
+        \\
+        x_2
+        \\
+        x_3
+        \\
+        x_4
+        \\
+        x_5
+      \end{bmatrix}
+    $</td>
+    <td>$
+      todo
+    $</td>
+    <td>$
+      todo
+    $</td>
+  </tr>
   </tbody>
 
 </table> 
