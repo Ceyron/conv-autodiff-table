@@ -245,7 +245,98 @@ MathJax = {
         \bar{y}_5
       \end{bmatrix}
     $</td>
-
+  </tr>
+  <tr>
+    <!-- "Valid" Padding-->
+    <td>"Valid" padding (no padding)</td>
+    <td>$
+      \begin{bmatrix}
+        y_1
+        \\
+        y_2
+        \\
+        y_3
+      \end{bmatrix}
+      =
+      \begin{bmatrix}
+        w_1 & w_2 & w_3 & 0 & 0
+        \\
+        0 & w_1 & w_2 & w_3 & 0
+        \\
+        0 & 0 & w_1 & w_2 & w_3
+      \end{bmatrix}
+      \begin{bmatrix}
+        x_1
+        \\
+        x_2
+        \\
+        x_3
+        \\
+        x_4
+        \\
+        x_5
+      \end{bmatrix}
+    $</td>
+    <td>
+      todo
+    </td>
+    <td>
+      todo
+    </td>
+  </tr>
+  <tr>
+    <!-- "Full" Padding-->
+    <td>"Full" padding (2-element zero padding on both ends)</td>
+    <td>$
+      \begin{bmatrix}
+        y_1
+        \\
+        y_2
+        \\
+        y_3
+        \\
+        y_4
+        \\
+        y_5
+        \\
+        y_6
+        \\
+        y_7
+      \end{bmatrix}
+      =
+      \begin{bmatrix}
+        w_3 & 0 & 0 & 0 & 0
+        \\
+        w_2 & w_3 & 0 & 0 & 0
+        \\
+        w_1 & w_2 & w_3 & 0 & 0
+        \\
+        0 & w_1 & w_2 & w_3 & 0
+        \\
+        0 & 0 & w_1 & w_2 & w_3
+        \\
+        0 & 0 & 0 & w_1 & w_2
+        \\
+        0 & 0 & 0 & 0 & w_1
+      \end{bmatrix}
+      \begin{bmatrix}
+        x_1
+        \\
+        x_2
+        \\
+        x_3
+        \\
+        x_4
+        \\
+        x_5
+      \end{bmatrix}
+    $</td>
+    <td>
+      todo
+    </td>
+    <td>
+      todo
+    </td>
   </tr>
   </tbody>
 
