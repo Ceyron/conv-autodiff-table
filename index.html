@@ -472,6 +472,42 @@ MathJax = {
       \bar{x} = f(w) \ast p_\infty(\bar{y})
     $</td>
   </tr>
+  <tr>
+    <td>"Same" Padding</td>
+    <td>$
+      y = w \ast p_0(x)
+    $</td>
+    <td>$
+      \bar{w} = f(x \ast p_0(\bar{y}))
+    $</td>
+    <td>$
+      \bar{x} = f(w) \ast p_0(\bar{y})
+    $</td>
+  </tr>
+  <tr>
+    <td>"Valid" Padding</td>
+    <td>$
+      y = w \ast x
+    $</td>
+    <td>$
+      \bar{w} = f(x \ast p_0(\bar{y}))
+    $</td>
+    <td>$
+      \bar{x} = f(w) \ast p_0^2(\bar{y})
+    $</td>
+  </tr>
+  <tr>
+    <td>"Full" Padding</td>
+    <td>$
+      y = w \ast p_0^2(x)
+    $</td>
+    <td>$
+      \bar{w} = f(x \ast \bar{y})
+    $</td>
+    <td>$
+      \bar{x} = f(w) \ast \bar{y}
+    $</td>
+  </tr>
   </tbody>
 
 </table> 
