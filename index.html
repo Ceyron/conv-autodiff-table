@@ -28,13 +28,25 @@ MathJax = {
   href="https://www.tensorflow.org/api_docs/python/tf/nn/convolution">TensorFlow</a>
   and
   <a
-  href="https://pytorch.org/docs/stable/generated/torch.nn.Conv1d.html">PyTorch</a>.</i>
+  href="https://pytorch.org/docs/stable/generated/torch.nn.Conv1d.html">PyTorch</a>.)</i>
 </p>
 <p class="text-center">
   Created with ❤️ by <a href="https://www.youtube.com/@MachineLearningSimulation">Machine Learning & Simulation</a>.
 </p>
 <p class="text-center">
   <a href="https://twitter.com/felix_m_koehler?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @felix_m_koehler</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+<p class="text-center">
+  Assuming a 1D convolution/cross-correlation with a kernel/filter of size $3$,
+  i.e. $w = [w_1, w_2, w_3]^T \in \Re^3$, and input of size $5$, i.e., $x=[x_1,
+  x_2, x_3, x_4, x_5]^T \in \Re^5$.
+</p>
+<p class="text-center">
+  $w \ast x \dots$ convolution of $x$ with filter $w$. <br>
+  $w \star x \dots$ cross-correlation of $x$ with filter $w$. <br>
+  $f(\cdot)\dots$ the flip/reverse operator. <br>
+  $p_0(\cdot)\dots$ the zero padding operator. <br>
+  $p_\infty(\cdot)\dots$ the periodic padding operator. <br>
 </p>
 
 <table class="table table-striped table-hover text-center">
